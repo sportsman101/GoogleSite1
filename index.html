@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Home</title>
+<style type="text/css" media="all">
+#Navbar {
+	height: 40px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+#Body {
+	background-color: #000000;
+	height: auto;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	font-family: Verdana, Geneva, sans-serif;
+	background-image: url(BACKGROUND.jpg);
+	background-repeat: repeat-y;
+}
+.paragraph {
+	background-color: #DEDDDD;
+	font-size: 12px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	padding: 8px;
+}
+.heading1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #0C1C2C;
+	background-color: #DEDDDD;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: normal;
+	top: auto;
+	border-bottom-style: solid;
+	border-top-width: medium;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	margin-top: 8px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.rightcell {
+	font-style: normal;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: left;
+}
+
+/* begin styles for RSS Feed */
+
+.rss-box {
+	 margin: 1em;
+	 width: 150px;
+}
+.rss-items {
+	margin-top: 0px;
+	padding-right: 2px;
+	padding-left: 0px;
+	margin-left: 0px;
+	color:#FFFFFF;
+	text-align: left;
+}
+p.rss-title {padding:0.5em;}
+.rss-title {
+        text-transform:uppercase;
+	text-decoration: none;
+	font-family: "Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+	font-size: 12px;
+	background-color:#000;
+	color:#ccc;
+	font-weight:bold;
+	margin: 0px;
+        margin-bottom: 10px;
+	padding:0em;
+	text-align: right;
+}
+
+.rss-item  {
+  font-family: "Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+  font-size: 12px;
+  font-weight : normal;
+  list-style:none;
+  padding-bottom:0em;
+}
+
+.rss-item a {
+	text-decoration : none;
+	color: #ad9;
+	font-size: 12px;
+	font-weight:light;
+	font-family:"Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+	}
+	
+.rss-item a:hover {
+	color:#fff;
+}
+
+.rss-date {
+	font-size: 85%;
+	font-weight : normal;
+	color: #fff;
+	} 
+/* buttons modeled from http://www.wellstyled.com/css-inline-buttons.html */
+
+.pod-play {
+   _width:12em;
+   margin: 0 0.2em; padding: 0.1em 0; _padding:0;
+   
+   white-space:nowrap;
+   text-decoration: none;
+   vertical-align:middle;
+   background: #fb6;
+   color: black;
+   }
+.pod-play em {
+   _width:1em; _cursor:hand;
+   font-style: normal;
+   margin:0; padding: 0.1em 0.5em;
+   background: white;
+   color: #222;
+   }
+.pod-play span {
+   _width:1em; _cursor:hand;
+   margin:0; padding: 0.1em 0.5em 0.1em 0.3em;
+   }
+.pod-play:hover {
+   background: #666;
+   color: white;
+   }
+.pod-play:hover em {
+   background: black;
+   color: white
+   }
+
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('NavOver_01.jpg','NavOver_02.jpg','NavOver_03.jpg','NavOver_04.jpg','NavOver_05.jpg','NavOver_06.jpg','NavOver_07.jpg','Navbar1_roll_01.jpg','Navbar1_roll_02.jpg','Navbar1_roll_03.jpg','Navbar1_roll_04.jpg','Navbar1_roll_05.jpg','Navbar1_roll_06.jpg','Navbar1_roll_07.jpg')">
+<div align="center"><img src="banner4.jpg" width="1200" height="200" /></div>
+<div id="Navbar"><a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Home','','Navbar1_roll_01.jpg',1)"><img src="Navbar1_01.jpg" name="Home" width="100" height="40" border="0" id="Home" /></a><a href="games.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','Navbar1_roll_02.jpg',1)"><img src="Navbar1_02.jpg" name="Image3" width="100" height="40" border="0" id="Image3" /></a><a href="gamemodes.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('modes','','Navbar1_roll_03.jpg',1)"><img src="Navbar1_03.jpg" name="modes" width="100" height="40" border="0" id="modes" /></a><a href="matchup.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('matchup','','Navbar1_roll_04.jpg',1)"><img src="Navbar1_04.jpg" name="matchup" width="100" height="40" border="0" id="matchup" /></a><a href="gallery.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('gallery','','Navbar1_roll_05.jpg',1)"><img src="Navbar1_05.jpg" name="gallery" width="100" height="40" border="0" id="gallery" /></a><a href="demos.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('demos','','Navbar1_roll_06.jpg',1)"><img src="Navbar1_06.jpg" name="demos" width="100" height="40" border="0" id="demos" /></a><a href="invites.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('invites','','Navbar1_roll_07.jpg',1)"><img src="Navbar1_07.jpg" name="invites" width="100" height="40" border="0" id="invites" /></a><img src="bar2.jpg" width="500" height="40" /></div>
+<div id="Body">
+  <table width="1200" height="770" border="1" cellpadding="1" cellspacing="1">
+    <tr>
+      <td width="1020" valign="top"><div align="left">
+        <h1 class="heading1">The games </h1>
+<p class="paragraph">This is by no means a complete list of games and any suggestions are welcome. Feel free to post a list of multiplayer games you own in the forums so we can work things out in advance.</p>
+<p class="paragraph"><img src="halo-411-200x200.jpg" width="200" height="200" /><img src="Gears-of-War-3.jpg" width="200" height="200" /><img src="black-ops-2.jpg" width="200" height="200" /><img src="battlefield-3.jpg" width="200" height="200" /><img src="borderlands2_box.jpg" width="200" height="200" /></p>
+<h1 class="heading1">What should I bring ?</h1>
+<p class="paragraph">-  TV/Monitor<br />
+- Xbox &amp; Controller (Plus associated connection cables)<br />
+- Batteries or Recharge kits<br />
+- Headphones if possible</p>
+<h1 class="heading1">Gaming venue</h1>
+<p class="paragraph">Well ....here's your gaming venue... wtf!!</p>
+<p class="paragraph"><img src="small_XmasLights7-1b11dbc846.jpg" width="501" height="402" /><img src="map.jpg" width="501" height="402" /></p>
+<h1 class="heading1">Test your skills</h1>
+<p class="paragraph">Test your Halo 4 skills with some of these achievments.<br />
+  <br />
+  <strong>Bros to the close</strong><br />
+  Easiest if done Cooperatively. There are a total of 6 UNSC Marines that must survive. <br />
+  2 Marines - join you after your encounter with Commander Laskey.<br />
+4 Marines - are fighting Crawlers, Watchers, Knights at the base of a hill.  <br />
+You can start at 'Rally Point Bravo' if you've completed the level already. Once you join up with 2 marines, you will then need to ensure that all marines from here on out survive the rest of the mission. Another 4 marines will join, to make a total of 6. Make sure to be aggressive and take out enemies as fast as possible, or else the marines will wander around and die on you. Always try to keep yourself in front of your Marines to keep the enemy fire focused on you. You will want to take out any Promethean Knights, Watcher and Turrets ASAP from afar, they do the most damage vs your Marines. You will find turrets scattered throughout the area at the top of the hill thereafter that are helpful when waiting for Cortana to unlock the hatch. Once she unlocks it, retrieve her chip and the achievement will unlock.<br />
+<br />
+<strong>Mortardom</strong><br />
+Hijacked a Wraith and used it to kill at least four enemy Wraiths in mission 5 on Heroic or harder.	 (31)  Campaign Mission 5 'Reclaimer' specific. Online not required. Must be obtained on Heroic+. Use 'Mission Select' after initial Campaign playthrough if missed. The easiest way to steal a Wraith is to kill the gunner from a safe distance, and emp blast it with the charged Plasma Pistol shot (hold  and release). While it is temporary disabled, you must go on top of it and press  to steal it. Make sure you are Holding  to 'Operate Plasma Cannon'. This will kick out the 'Wraith Operator' and you must shoot him. Then you can Hold  along side it to 'Operate Wraith'. Now use it to destroy 4 other Wraiths. The trick is to keep moving &amp; dodging the enemy Wraith's plasma attack while staying a safe distance from them, especially their short/mid ranged gunner's attack. There are a total of 8 Wraiths in the level.<br />
+<strong><br />
+This is my rifle, This is my gun
+</strong><br />
+Carried a UNSC weapon all the way through mission 3 on Heroic or harder.	 (42)  Campaign Mission 3 'Forerunner' specific. Online not required. Must be obtained on Heroic+. Use 'Mission Select' after initial Campaign playthrough if missed. You start out with 2 UNSC weapons Assault Rifle (glitchy) Magnum Pistol (recommended) The Magnum Pistol is the one to carry with you as your secondary weapon until the Mission ends. It is ok if you run out of Ammo - It is NOT ok if you drop it - 'Revert to last Save' if you accidentally swap/drop it. Note: If playing on Heroic Cooperatively, you must NOT die. You will NOT respawn with a UNSC weapon. Unless your buddy is willing to 'Revert to Last Save' every time one of you die, your best bet is to play this one Solo. Play it Safe (hang back) if you must play it Co-op.<br />
+<br />
+</p>
+<p class="heading1">nEWS FOR YALL!</p>
+<p class="paragraph">&nbsp;</p>
+<p class="heading1">cONT BACKGROUND TEST</p>
+<p class="paragraph">&nbsp;</p>
+<p class="heading1">cSS STYLES ROCK</p>
+<p class="paragraph">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation semantics (the look and formatting) of a document written in a markup language. Its most common application is to style web pages written in HTML and XHTML, but the language can also be applied to any kind of XML document, including plain XML, SVG and XUL. CSS is designed primarily to enable the separation of document content (written in HTML or a similar markup language) from document presentation, including elements such as the layout, colors, and fonts.[1] This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple pages to share formatting, and reduce complexity and repetition in the structural content (such as by allowing for tableless web design). CSS can also allow the same markup page to be presented in different styles for different rendering methods, such as on-screen, in print, by voice (when read out by a speech-based browser or screen reader) and on Braille-based, tactile devices. It can also be used to allow the web page to display differently depending on the screen size or device on which it is being viewed. While the author of a document typically links that document to a CSS style sheet, readers can use a different style sheet, perhaps one on their own computer, to override the one the author has specified.</p>
+      </div>
+      <p>&nbsp;</p></td>
+      <td width="164" align="left" valign="top"><div class="rss-items rss-box">
+          <div align="left" class="rightcell"> <script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Ffeeds.ign.com%2Fign%2Fnews&desc=50>1&utf=y"  charset="UTF-8" type="text/javascript"></script>
+            
+            <noscript>
+      <a href="http://feed2js.org//feed2js.php?src=http%3A//feeds.ign.com/ign/news&amp;desc=50>1&amp;utf=y&amp;html=y"></a></noscript></div></div></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
